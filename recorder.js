@@ -3,12 +3,6 @@ NodeList.prototype.forEach = Array.prototype.forEach;
 setTimeout(setupUI, 100);
 
 function setupUI() {
-
-	document.querySelectorAll(".btns button").forEach(function (x) {
-
-		x.style = "background-color: blue;  color: white; border-radius: 4px; font-size: large; padding: 4px;";
-	});
-
 	video = document.getElementById('video');
 	reqBtn = document.getElementById('request');
 	startBtn = document.getElementById('start');
